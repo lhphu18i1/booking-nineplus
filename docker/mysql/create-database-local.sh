@@ -1,0 +1,1 @@
+docker exec -i booking-database mysql -uroot -ppassword  <<< 'CREATE DATABASE IF NOT EXISTS booking;'

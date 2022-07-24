@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  booking:
+    container_name: booking
+    hostname: booking
+    ports:
+      - 8080:80
+  booking-database:
+    container_name: booking-database
+    hostname: booking-database
+    ports:
+      - 33061:3306
